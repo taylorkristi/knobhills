@@ -10,99 +10,109 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <!-- Navigation Bar Top(Black) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Knob Hills Trail Race</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">FAQ</a>
-              <a class="dropdown-item" href="#">History</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Contact</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Volunteer</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    <!-- Jumbotron -->
+    <!-- Navigation Bar Top(Transparent) -->
+    <!-- Jumbotron extends to top of NavBar -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container fullRight">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <!-- <a class="navbar-brand" href="#">
+            <img src="assets/img/Knob_TigerWhite.png" width="40" height="40" alt="">
+          </a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Race Information</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About  <i class="fas fa-chevron-circle-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">FAQ</a>
+                  <a class="dropdown-item" href="#">History</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Contact</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Volunteer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Shop</a>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form> -->
+          </div>
+        </nav>
       </div>
     </div>
-    <!-- Registration Information Container -->
-    <div class="container-fluid">
+    <!-- About the Race & Registration Information Container/Section -->
+    <div class="container">
       <div class="row">
-        <!-- Registration Button -->
-        <div class="col-md-4">
-          <button type="button" class="btn btn-secondary btn-lg btn-block">Register</button>
+        <!-- Registration Headline -->
+        <div class="col-md-12">
+          <h2>Knob Hills Trail Race</h2>
+          <h4 id="distance">10k - 25k - 50k - 100k</h4>
+          <p>Join us for the third annual Knob Hills Trail Race on the  challenging DORBA Knob Hills Trail. This looped course will take racers along the westerly side of Lake Grapevine and along Denton Creek through some of the grittiest trail in North Texas.</p>
         </div>
-        <!-- Text Box about Registration -->
-        <div class="col-md-4">
-          <p>Join us for the second annual Knob Hills Trail Race on the  challenging DORBA Knob Hills Trail. This looped course will take racers along the westerly side of Lake Grapevine and along Denton Creek through some of the grittiest trail in North Texas. 
-
-Start/Finish is at Scout Barn 771 off of Dunham Road. There is ample parking and amenities are available at the Start/Finish and the opposite end of the loop on 377 just south of 1171. 
-
-Gender specific shirts available, however the women's sizes run SMALL. All registrations after January 9 will receive unisex shirt. 
-
-All finishers will receive a finisher award. Additional awards will be given to M 1-3, F 1-3 and Masters (45+) M&F 1-3.</p>
-          <a href="">Text</a>
-        </div>
-        <!-- Carousel Images for Registration -->
-        <div class="col-md-4">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/KHills Start.jpg" alt="Knob Hills Starting Line 2017">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/Knob Hills_Runner.jpeg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/KHills_Runner2.jpeg" alt="Third slide">
-              </div>
+        <div class="container">
+          <div class="row aboutContainer">
+            <div class="col-md-4">
+               <img class="icon_set" src="assets/img/clipboard.png">
+              <h4 id="aboutRace">Registration</h4>
+              <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard.<a href"">edsregistration.com.</a></p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="col-md-4">
+              <img class="icon_set" src="assets/img/mapicon.png">
+              <h4 id="aboutRace">Course Maps & Description</h4>
+              <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard. <a href=""> Download a course map and more details.</a></p>
+            </div>
+            <div class="col-md-4">
+             <img class="icon_set" src="assets/img/trophy.png">
+              <h4 id="aboutRace">History</h4>
+              <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Trail Map Section with Jquery interactivity -->
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <!-- Sponsors Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Sponsors</h4>
+          <p> More info about our sponsors...</p>
+          <img src="assets/img/mapIcon.png">
+          <img src="">
+          <img src="">
+          <button type="button" class="btn btn-primary btn-sm">Contact Us</button>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/img/">
+        </div>
+      </div>
+       </div>
+        <!-- Trail Map Section with Jquery interactivity -->
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <footer></footer>
+      </body>
+    </html>

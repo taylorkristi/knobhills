@@ -1,36 +1,75 @@
 .body .html {
 	font-family: "Cardo", serif;
-	background-color: purple;
-	color: #fff;
 }
+h2 {
+	font-family:"Cardo", serif;
+	font-size: 2em!important;
+	text-transform: uppercase;
+	color: #247605!important;
+	text-align: center;
+	letter-spacing: .25em;
+}
+h4 {
+	font-family:"Pathway Gothic One", sans-serif;
+	font-size: 1.5em!important;
+	color: #2b3d54!important;
+	text-align: center;
+	margin: auto;
 
+}
+.fullRight {
+	margin-left: 10px!important;
+}
 .navbar {
 	font-family:"Pathway Gothic One", sans-serif;
-	background-color: #000!important;
+	font-size: 1.5em!important;
+	background-color: transparent!important;
 	width:100%;
+	margin-top: -70px!important;
 }
-.navbarText {
-	color: #fff!important;
+.dropdown-item {
+	font-family:"Pathway Gothic One", sans-serif!important;
 }
 #navbarDropdownMenuLink {
 	color: #fff;
 }
+
 .nav-link {
-	color: #fff;
+	color: #fff!important;
 	padding-right: 1em !important;
 	padding-left: 1em !important;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
-.dropdown-toggle {
-	content: url""
-}
+#distance {
+	padding-bottom: 10px;
 
-.site-logo {
-	width: 40px;
-	height: 40px;
+}
+#aboutRace {
+	padding-bottom: .5em;
+	text-transform: uppercase;
 }
 .jumbotron {
-background-image: url("KHills_Hero-01.png");
+background-image: url("KHills_HeroImage1.png");
 height: 680px;
 background-size: cover;
+}
+
+.heroText {
+	padding-left: 40px !important;
+	padding-right: 30px !important;
+}
+
+.icon_set {
+	height: auto;
+	align-content: center;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+.aboutContainer {
+	padding-top: 2em;
+	padding-bottom: 4em;
 }
 
