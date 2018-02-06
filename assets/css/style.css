@@ -75,6 +75,16 @@ h4 {
 
 }
 
+h5 {
+	font-family:"Pathway Gothic One", sans-serif;
+	font-size: 2.0em!important;
+	color: #fff!important;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto;
+}
+
 /*.btn {
 	color: #fff;
 	background-color: #247065;
@@ -201,17 +211,19 @@ background-size: cover;
 	background-size: cover;
 	margin-bottom: 4em;
 }
-.riverContainer {
-	background-color: #fff;
 
-}
-
+/*
 .gallery-button {
-
+	background-color: #fff;
+	color: #000;
+	font-family:"Pathway Gothic One", sans-serif;
+	letter-spacing: .25em;
+	text-transform: uppercase;
 }
 .float-text {
-	padding-top: 150px;
-}
+	padding-top: 170px;
+	color: #fff;
+}*/
 
 /* --- 4.5) SHOP GALLERY  --- */
 
@@ -221,6 +233,10 @@ background-size: cover;
 .shopSubtitle{
 	letter-spacing: .25em;
 }
+.shop-item-title {
+	margin: .5em;
+}
+
 .bottomShop{
 	float: center;
 }
@@ -229,6 +245,13 @@ background-size: cover;
 	margin-bottom: 1em;
 
 }
+
+.shop-button {
+	margin: .5em;
+	width: 175px;
+	height: auto;
+}
+
 /* --- 4.6) CONTACT US SECTION  --- */
 
 
