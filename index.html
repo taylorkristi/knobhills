@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Pathway+Gothic+One" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Main Stylesheet -->
@@ -21,9 +21,6 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container fullRight">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <!-- <a class="navbar-brand" href="#">
-            <img src="assets/img/Knob_TigerWhite.png" width="40" height="40" alt="">
-          </a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,6 +50,7 @@
                 <a class="nav-link active" href="#">Shop</a>
               </li>
             </ul>
+            <!-- SEARCH FORM FOR NAVIGATION BAR -->
             <!-- <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
@@ -61,58 +59,114 @@
         </nav>
       </div>
     </div>
-    <!-- About the Race & Registration Information Container/Section -->
-    <div class="container">
+    <!-- About the Race Section -->
+    <div class="container aboutContainer">
       <div class="row">
         <!-- Registration Headline -->
-        <div class="col-md-12">
+        <div class="col-md-12 col-xs-12 col-xl-12">
           <h2>Knob Hills Trail Race</h2>
           <h4 id="distance">10k - 25k - 50k - 100k</h4>
           <p>Join us for the third annual Knob Hills Trail Race on the  challenging DORBA Knob Hills Trail. This looped course will take racers along the westerly side of Lake Grapevine and along Denton Creek through some of the grittiest trail in North Texas.</p>
         </div>
+        <!-- THREE COLUMN WITH ICONS AND TEXT -->
         <div class="container">
           <div class="row aboutContainer">
-            <div class="col-md-4">
-               <img class="icon_set" src="assets/img/clipboard.png">
-              <h4 id="aboutRace">Registration</h4>
-              <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard.<a href"">edsregistration.com.</a></p>
+            <div class="col-md-4 col-xs-4 col-xl-4">
+              <img class="icon_set" src="assets/img/clipboard.png" alt="Clipboard Icon">
+              <h3 class="aboutRace">Registration</h3>
+              <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard.<a href="">edsregistration.com.</a></p>
             </div>
-            <div class="col-md-4">
-              <img class="icon_set" src="assets/img/mapicon.png">
-              <h4 id="aboutRace">Course Maps & Description</h4>
+            <div class="col-md-4 col-xs-4 col-xl-4">
+              <img class="icon_set" src="assets/img/mapicon.png" alt="Map Icon">
+              <h3 class="aboutRace">Course Maps & Description</h3>
               <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard. <a href=""> Download a course map and more details.</a></p>
             </div>
-            <div class="col-md-4">
-             <img class="icon_set" src="assets/img/trophy.png">
-              <h4 id="aboutRace">History</h4>
+            <div class="col-md-4 col-xs-4 col-xl-4">
+              <img class="icon_set" src="assets/img/trophy.png" alt="Trophy Icon">
+              <h3 class="aboutRace">History</h3>
               <p>Lorem ipsum dolor amet coloring book sartorial meh migas direct trade trust fund swag cold-pressed cronut pug gluten-free four dollar toast neutra echo park pop-up. Cardigan everyday carry bushwick affogato heirloom woke. Art party mumblecore listicle try-hard.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Sponsors Section -->
-    <div class="container">
+    <div class="container-fluid sunset">
       <div class="row">
-        <div class="col-md-8">
-          <h4>Sponsors</h4>
-          <p> More info about our sponsors...</p>
-          <img src="assets/img/mapIcon.png">
-          <img src="">
-          <img src="">
-          <button type="button" class="btn btn-primary btn-sm">Contact Us</button>
-        </div>
-        <div class="col-md-4">
-          <img src="assets/img/">
+        <div class="col-md-8 col-xs sponsorsBox">
+          <!-- Bordered box w/ sponsor images and text -->
+          <h3 class="sponsorsTitle"> Knob Hill Trail Race Sponsors</h3>
+          <h4 class="sponsorSubtitle">Interested in being a sponsor? <a href=#contact>Get in touch with us.</a> </h4>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="logoContainer">
+            <a href="https://www.altrarunning.com/">
+              <img class="sponsorLogo" alt="Altra Running" src="assets/img/altra-logo.png">
+            </a>
+            <a href="https://bearcreekrunningco.com/">
+              <img class="sponsorLogo" alt="Bear Creek Running Company" src="assets/img/bearcreek_logo.jpg">
+            </a>
+            <a href="https://www.hammernutrition.com/">
+              <img class="sponsorLogo" alt="Hammer Nutrition" src="assets/img/hammer_nutrition.png">
+            </a>
+          </div>
         </div>
       </div>
-       </div>
-        <!-- Trail Map Section with Jquery interactivity -->
-        <!-- Bootstrap Scripts -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <footer></footer>
-      </body>
-    </html>
+    </div>
+    <!-- Galleries Section -->
+    <div class="container-fluid trailRiver">
+      <div class="row">
+        <div class="col-md-10 float-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp</p>
+          <button type="button" class="btn btn-outline-secondary gallery-button">Dark</button>
+        </div>
+      </div>
+    </div>
+    <!-- Shop Section -->
+    <div class="container shopContainer">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12 topShop">
+          <h2> Knob Hills Collection</h2>
+          <h4 class="shopSubtitle"> Official Gear</h4>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+
+          <h4>Knob Hills Trucker Hat</h4>
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/img/trucker-hat.jpg" alt="Knob Hills Trucker Hat">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+                <h4>Men's Long Sleeve</h4>
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Flat-Front_Black.png" alt="Men's Longsleeve">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+                <h4>Women's Racerback Tank</h4>
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Flat-Front_Vintage-Shocking-Pink.png" alt="Women's Racerback Tank">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+                <h4>Women's Longsleeve</h4>
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Front_Flat_Black.png" alt="Women's Longsleeve">
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-12 col-lg-12 text-center">
+          <h4> See the full collection.</h4>
+          <button type="button" class="btn btn-dark">Online Shop</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Us Section -->
+  <div id="contact">
+  </div>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<footer></footer>
+</body>
+</html>

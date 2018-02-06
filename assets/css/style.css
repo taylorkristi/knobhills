@@ -1,6 +1,52 @@
-.body .html {
+/* 	Main stylesheet for Knob Hills Trail Race
+	Author: Kristi Taylor 
+*/
+
+
+/* --------------Style CSS Contents -------------------
+
+Landing Page is divided into sections:
+-1) Basic styling
+-2) Header
+-3) Footer
+-4) Page styling
+	-4.1) Hero image
+	-4.2) About the race section
+	-4.3) Sponsors section
+	-4.4) Galleries
+	-4.5) Shop Gallery
+	-4.6) Contact Us section
+-5) Race Information page
+-6) Volunteer page
+-7) History page
+-8) Shop page
+-9) Galleries page
+-10) FAQ page
+--------------------------------------------------------
+COLORS AND FONTS:
+
+Colors: Navy Blue - #2b3d54
+		Medium Turquoise - #2c5b61
+		Teal - #247065
+		Light Green - #60a65f
+		Light Yellow - #ffec97
+
+Font Families: 	Cardo (400, 700)
+				Pathway Gothic One (400)
+
+--------------------------------------------------------
+*/
+
+/* --- 1) BASIC STYLING --- */
+body {
 	font-family: "Cardo", serif;
+	font-size: 1em;
 }
+a {
+	text-decoration: none;
+	color: #2c5b61;
+}
+
 h2 {
 	font-family:"Cardo", serif;
 	font-size: 2em!important;
@@ -8,7 +54,18 @@ h2 {
 	color: #247605!important;
 	text-align: center;
 	letter-spacing: .25em;
+
 }
+h3 {
+	font-family:"Cardo", serif;
+	font-size: 1.75em!important;
+	color: #2b3d54!important;
+	text-align: center;
+	margin: auto;
+	padding: .5em;
+
+}
+
 h4 {
 	font-family:"Pathway Gothic One", sans-serif;
 	font-size: 1.5em!important;
@@ -17,6 +74,21 @@ h4 {
 	margin: auto;
 
 }
+
+/*.btn {
+	color: #fff;
+	background-color: #247065;
+	border-color: #247065;
+	margin-bottom: 1em!important;
+}*/
+
+.img-thumbnail {
+	margin-bottom: .5em;
+}
+
+/* --- 2) HEADER --- */
+
+
 .fullRight {
 	margin-left: 10px!important;
 }
@@ -41,14 +113,19 @@ h4 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+
+
+/* --- 3) FOOTER --- */
+
+
+
+/* --- 4) PAGE STYLING --- */
+/* --- 4.1) HERO IMAGE  --- */
 #distance {
 	padding-bottom: 10px;
 
 }
-#aboutRace {
-	padding-bottom: .5em;
-	text-transform: uppercase;
-}
+
 .jumbotron {
 background-image: url("KHills_HeroImage1.png");
 height: 680px;
@@ -60,6 +137,8 @@ background-size: cover;
 	padding-right: 30px !important;
 }
 
+/* --- 4.2) ABOUT THE RACE SECTION  --- */
+
 .icon_set {
 	height: auto;
 	align-content: center;
@@ -67,9 +146,98 @@ background-size: cover;
 	margin: auto;
 	padding: 1em;
 }
+.aboutRace {
+	padding-bottom: .5em;
+}
 
 .aboutContainer {
 	padding-top: 2em;
-	padding-bottom: 4em;
+	padding-bottom: 2em;
+	max-width: 1200px;
 }
+
+
+/* --- 4.3) SPONSORS SECTION  --- */
+.sponsorsBox {
+	background-color: #fff;
+	margin-top: 3em;
+	margin-left: 2em;
+	max-width: 40%;
+	padding: 1em;
+	border-radius: 1%
+}
+
+.logoContainer {
+	margin: auto;
+}
+.sponsorsTitle {
+	padding: .5em;
+	opacity: 1.0;
+}
+.sponsorLogo {
+	width: 150px;
+	height: auto;
+	margin-right: .5em;
+	margin-left: .5em;
+	align-content: justify;
+	opacity: 1.0;
+}
+.sunset {
+	background-image: url("Sunset_Brushed-01.jpg");
+	height: 680px;
+	background-size: cover;
+	margin-bottom: 3em;
+}
+
+.sponsorSubtitle {
+	padding-bottom: .5em;
+}
+
+
+/* --- 4.4) GALLERIES  --- */
+.trailRiver {
+	background-image: url("Khills_river.png");
+	height: 680px;
+	background-size: cover;
+	margin-bottom: 4em;
+}
+.riverContainer {
+	background-color: #fff;
+
+}
+
+.gallery-button {
+
+}
+.float-text {
+	padding-top: 150px;
+}
+
+/* --- 4.5) SHOP GALLERY  --- */
+
+.shopContainer {
+
+}
+.shopSubtitle{
+	letter-spacing: .25em;
+}
+.bottomShop{
+	float: center;
+}
+
+.topShop {
+	margin-bottom: 1em;
+
+}
+/* --- 4.6) CONTACT US SECTION  --- */
+
+
+
+/* --- 5) RACE INFORMATION PAGE---*/
+/* --- 6) VOLUNTEER PAGE ---*/
+/* --- 7) HISTORY PAGE ---*/
+/* --- 8) SHOP PAGE ---*/
+/* --- 9) GALLERIES PAGE ---*/
+/* --- 10) FAQ PAGE ---*/
+
 
