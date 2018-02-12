@@ -18,48 +18,34 @@
   <body>
     <!-- Navigation Bar Top(Transparent) -->
     <!-- Jumbotron extends to top of NavBar -->
+    <nav class="navbar navbar-light navbar-expand-md">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Race Information</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Volunteer</a>
+          </li>
+          <form class="form-inline">
+            <button class="btn btn-secondary " type="button">Shop</button>
+          </form>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- About the Race Section -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container fullRight">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Race Information</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About  <i class="fas fa-chevron-circle-down"></i>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">FAQ</a>
-                  <a class="dropdown-item" href="#">History</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Contact</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Volunteer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Shop</a>
-              </li>
-            </ul>
-            <!-- SEARCH FORM FOR NAVIGATION BAR -->
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-            </form> -->
-          </div>
-        </nav>
+      <div class="container">
       </div>
     </div>
-    <!-- About the Race Section -->
     <div class="container aboutContainer">
       <div class="row">
         <!-- Registration Headline -->
@@ -93,7 +79,7 @@
     <!-- Sponsors Section -->
     <div class="container-fluid sunset">
       <div class="row">
-        <div class="col-md-8 col-xs sponsorsBox">
+        <div class="col-md-8 sponsorsBox">
           <!-- Bordered box w/ sponsor images and text -->
           <h3 class="sponsorsTitle"> Knob Hill Trail Race Sponsors</h3>
           <h4 class="sponsorSubtitle">Interested in being a sponsor? <a href=#contact>Get in touch with us.</a> </h4>
@@ -108,7 +94,7 @@
             <a href="https://www.hammernutrition.com/">
               <img class="sponsorLogo" alt="Hammer Nutrition" src="assets/img/hammer_nutrition.png">
             </a>
-               <a href="http://www.dentonarearunningclub.org/">
+            <a href="http://www.dentonarearunningclub.org/">
               <img class="sponsorLogo" alt="Denton Area Running Club" src="assets/img/DARC LOGO_FULL.png">
             </a>
           </div>
@@ -132,26 +118,25 @@
           <h4 class="shopSubtitle"> Official Gear</h4>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
-
           <h4 class="shop-item-title">Knob Hills Trucker Hat</h4>
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="assets/img/trucker-hat.jpg" alt="Knob Hills Trucker Hat">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
-                <h4 class="shop-item-title">Men's Long Sleeve</h4>
+          <h4 class="shop-item-title">Men's Long Sleeve</h4>
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Flat-Front_Black.png" alt="Men's Longsleeve">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
-                <h4 class="shop-item-title">Women's Racerback Tank</h4>
+          <h4 class="shop-item-title">Women's Racerback Tank</h4>
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Flat-Front_Vintage-Shocking-Pink.png" alt="Women's Racerback Tank">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
-                <h4 class="shop-item-title">Women's Longsleeve</h4>
+          <h4 class="shop-item-title">Women's Longsleeve</h4>
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="assets/img/Knob_TigerWhite_mockup_Front_Flat_Black.png" alt="Women's Longsleeve">
           </a>
@@ -170,6 +155,51 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<footer></footer>
-</body>
+  <footer>
+    <section id="footer" class="bg-dark">
+      <div class="container">
+        <div class="row fill-40-viewport py-5">
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <ul class="list-unstyled">
+              <li><h5 class="footer-title">Stay Connected</h5></li>
+              <li>Sign up for updates to race information.</li>
+            </ul>
+            <form>
+              <div class="form-inline">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <button type="submit" class="btn btn-primary email-btn">Submit</button></form>
+               </div>
+             <i class="fab fa-instagram"></i>
+             <i class="fab fa-facebook-square"></i>
+             <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <ul class="list-unstyled">
+                <li><h6 class="text-white">Committed to our Community</h6></li>
+                <li>Check out our other races at Denton Area Running Club
+                   <a href="http://www.dentonarearunningclub.org/">   <img class="darc-logo" alt="Denton Area Running Club" src="assets/img/DARC LOGO_FULL.png"></a>
+                </ul>
+              </div>
+              <div class="col-12 col-md-2">
+                <ul class="list-unstyled">
+                  <li><h6 class="text-white">Navigate</h6></li>
+                  <li>Home</li>
+                  <li>Race Information</li>
+                  <li>Volunteer</li>
+                  <li>Shop</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="copyright"> Knob Hills Trail Race presented by DARC(Denton Area Running Club) | (c)2018 </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

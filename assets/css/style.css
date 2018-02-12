@@ -6,6 +6,7 @@
 /* --------------Style CSS Contents -------------------
 
 Landing Page is divided into sections:
+
 -1) Basic styling
 -2) Header
 -3) Footer
@@ -22,6 +23,7 @@ Landing Page is divided into sections:
 -8) Shop page
 -9) Galleries page
 -10) FAQ page
+
 --------------------------------------------------------
 COLORS AND FONTS:
 
@@ -41,6 +43,7 @@ Font Families: 	Cardo (400, 700)
 body {
 	font-family: "Cardo", serif;
 	font-size: 1em;
+
 }
 a {
 	text-decoration: none;
@@ -77,7 +80,7 @@ h4 {
 
 h5 {
 	font-family:"Pathway Gothic One", sans-serif;
-	font-size: 2.0em!important;
+	font-size: 1.0em!important;
 	color: #fff!important;
 	letter-spacing: .5em;
 	text-transform: uppercase;
@@ -85,48 +88,77 @@ h5 {
 	margin: auto;
 }
 
-/*.btn {
+.btn {
 	color: #fff;
+	font-size: 1em;
 	background-color: #247065;
 	border-color: #247065;
-	margin-bottom: 1em!important;
-}*/
+	width: 5em;
+	border-radius: 5%;
+}
 
 .img-thumbnail {
 	margin-bottom: .5em;
 }
 
+
 /* --- 2) HEADER --- */
 
 
-.fullRight {
-	margin-left: 10px!important;
-}
+
 .navbar {
 	font-family:"Pathway Gothic One", sans-serif;
-	font-size: 1.5em!important;
-	background-color: transparent!important;
-	width:100%;
-	margin-top: -70px!important;
-}
-.dropdown-item {
-	font-family:"Pathway Gothic One", sans-serif!important;
-}
-#navbarDropdownMenuLink {
-	color: #fff;
-}
+	font-size: 1.25em!important;
+	padding-top: 10px;
+	background-color: #000;
 
+}
 .nav-link {
-	color: #fff!important;
 	padding-right: 1em !important;
 	padding-left: 1em !important;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	color: #fff!important;
 }
 
 
 /* --- 3) FOOTER --- */
+footer {
+	font-family:"Pathway Gothic One", sans-serif;
 
+}
+.copyright {
+	font-size: 1em;
+	letter-spacing: .15em;
+	color: #fff;
+	padding: 1em;
+	margin: auto;
+	text-align: center;
+}
+.email-btn {
+	margin-left: 1em;
+	width: auto;
+}
+
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+	color: #fff;
+	width: 50px!important;
+	height: auto;
+	padding: 10px;
+}
+
+.footer-title {
+	text-align: left;
+}
+
+.form-inline {
+	padding-bottom: 10px;
+}
+.darc-logo {
+	height: 100px;
+	width: auto;
+
+}
 
 
 /* --- 4) PAGE STYLING --- */
@@ -140,6 +172,7 @@ h5 {
 background-image: url("KHills_HeroImage1.png");
 height: 680px;
 background-size: cover;
+padding-top: 10px;
 }
 
 .heroText {
@@ -172,7 +205,7 @@ background-size: cover;
 	background-color: #fff;
 	margin-top: 3em;
 	margin-left: 2em;
-	max-width: 40%;
+	max-width: auto;
 	padding: 1em;
 	border-radius: 1%
 }
@@ -262,5 +295,4 @@ background-size: cover;
 /* --- 8) SHOP PAGE ---*/
 /* --- 9) GALLERIES PAGE ---*/
 /* --- 10) FAQ PAGE ---*/
-
 
