@@ -16,7 +16,6 @@ Landing Page is divided into sections:
 	-4.3) Sponsors section
 	-4.4) Galleries
 	-4.5) Shop Gallery
-	-4.6) Contact Us section
 -5) Race Information page
 -6) Volunteer page
 -7) History page
@@ -90,11 +89,15 @@ h5 {
 
 .btn {
 	color: #fff;
-	font-size: 1em;
+	font-family:"Pathway Gothic One", sans-serif;
+	font-size: 1em!important;
+	letter-spacing: .25em;
+	text-transform: uppercase;
 	background-color: #247065;
 	border-color: #247065;
 	width: 5em;
 	border-radius: 5%;
+	width: auto;
 }
 
 .img-thumbnail {
@@ -110,7 +113,7 @@ h5 {
 	font-family:"Pathway Gothic One", sans-serif;
 	font-size: 1.25em!important;
 	padding-top: 10px;
-	background-color: transparent!important;
+	/*background-color: transparent!important;*/
 
 }
 .nav-link {
@@ -197,7 +200,13 @@ padding-top: 10px;
 .aboutContainer {
 	padding-top: 2em;
 	padding-bottom: 2em;
-	max-width: 1200px;
+}
+.button-aboutRace {
+	width: 140px;
+	margin: auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -285,10 +294,6 @@ padding-top: 10px;
 	width: 175px;
 	height: auto;
 }
-
-/* --- 4.6) CONTACT US SECTION  --- */
-
-
 
 /* --- 5) RACE INFORMATION PAGE---*/
 /* --- 6) VOLUNTEER PAGE ---*/
