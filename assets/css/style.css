@@ -93,10 +93,10 @@ h5 {
 	font-size: 1em!important;
 	letter-spacing: .25em;
 	text-transform: uppercase;
-	background-color: #247065;
-	border-color: #247065;
+	background-color: #2b3d54;
+	border-color: #2b3d54;
 	width: 5em;
-	border-radius: 5%;
+	border-radius: 5px;
 	width: auto;
 }
 
@@ -127,6 +127,16 @@ h5 {
 
 .fa-bars {
 	color: #fff;
+}
+.dropdown-menu {
+	color: #fff!important;
+	background-color: #2b3d54;
+	width: 15px!important;
+}
+.dropdown-item {
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 
