@@ -111,9 +111,10 @@ h5 {
 
 .navbar {
 	font-family:"Pathway Gothic One", sans-serif;
-	font-size: 1.25em!important;
+	font-size: 1.5em!important;
 	padding-top: 10px;
 	/*background-color: transparent!important;*/
+	margin: none;
 
 }
 .nav-link {
@@ -124,12 +125,17 @@ h5 {
 	color: #fff!important;
 }
 
+.fa-bars {
+	color: #fff;
+}
+
 
 /* --- 3) FOOTER --- */
-footer {
+#footer-style {
 	font-family:"Pathway Gothic One", sans-serif;
-	background-color: #2b3d54;
-
+	background-color: #fff!important;
+	font-size: 1em;
+	padding-top: 2em;
 }
 .copyright {
 	font-size: 1em;
@@ -145,14 +151,14 @@ footer {
 }
 
 .fa-instagram, .fa-facebook-square, .fa-twitter-square {
-	color: #fff;
+	color: #2b3d54;
 	width: 50px!important;
 	height: auto;
 	padding: 10px;
 }
 
 .footer-title {
-	text-align: left;
+	padding-bottom: .5em;
 }
 
 .form-inline {
