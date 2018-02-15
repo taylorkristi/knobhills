@@ -324,6 +324,15 @@ padding-top: 10px;
 }
 
 /* --- 5) RACE INFORMATION PAGE---*/
+.race-jumbo {
+	background-image: url("Khills_Feet.png");
+	height: 830px;
+	background-size: cover;
+	margin-bottom: 3em;
+}
+
+
+
 /* --- 6) VOLUNTEER PAGE ---*/
 /* --- 7) HISTORY PAGE ---*/
 /* --- 8) SHOP PAGE ---*/
