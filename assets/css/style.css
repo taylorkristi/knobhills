@@ -158,6 +158,7 @@ h5 {
 .email-btn {
 	margin-left: 1em;
 	width: auto;
+	display: inline-block;
 }
 
 .fa-instagram, .fa-facebook-square, .fa-twitter-square {
@@ -182,6 +183,7 @@ h5 {
 }
 
 
+
 /* --- 4) PAGE STYLING --- */
 /* --- 4.1) HERO IMAGE  --- */
 #distance {
@@ -190,38 +192,34 @@ h5 {
 }
 
 .jumbotron {
-background-image: url("KHills_HeroImage1.png");
+background-image: url("../img/KHills_HeroImage1.png");
 height: 800px;
 width: 1500px;
 background-size: cover;
 padding-top: 10px;
 }
 
-.heroText {
-	padding-left: 40px !important;
-	padding-right: 30px !important;
-}
 
 /* --- 4.2) ABOUT THE RACE SECTION  --- */
 
-.icon_set {
+.icon-set {
 	height: auto;
 	align-content: center;
 	display: block;
 	margin: auto;
 	padding: 1em;
 }
-.aboutRace {
+.about-race {
 	padding-bottom: .5em;
 }
 
-.aboutContainer {
+.about-container {
 	padding-top: 2em;
 	padding-bottom: 2em;
 	max-height: 637px;
 	max-width: 1200px;
 }
-.button-aboutRace {
+.button-about-race {
 	width: 140px;
 	margin: auto;
 	display: flex;
@@ -234,7 +232,7 @@ padding-top: 10px;
 
 
 /* --- 4.3) SPONSORS SECTION  --- */
-.sponsorsBox {
+.sponsors-box {
 	background-color: #fff;
 	margin-top: 3em;
 	margin-left: 2em;
@@ -243,14 +241,14 @@ padding-top: 10px;
 	border-radius: 1%
 }
 
-.logoContainer {
+.logo-container {
 	margin: auto;
 }
-.sponsorsTitle {
+.sponsors-title {
 	padding: .5em;
 	opacity: 1.0;
 }
-.sponsorLogo {
+.sponsor-logo {
 	width: 150px;
 	height: auto;
 	margin-right: .5em;
@@ -259,20 +257,20 @@ padding-top: 10px;
 	opacity: 1.0;
 }
 .sunset {
-	background-image: url("Sunset_Brushed-01.jpg");
+	background-image: url("../img/Sunset_Brushed-01.jpg");
 	height: 680px;
 	background-size: cover;
 	margin-bottom: 3em;
 }
 
-.sponsorSubtitle {
+.sponsor-subtitle {
 	padding-bottom: .5em;
 }
 
 
 /* --- 4.4) GALLERIES  --- */
-.trailRiver {
-	background-image: url("Khills_river.png");
+.trail-river {
+	background-image: url("../img/Khills_river.png");
 	height: 680px;
 	background-size: cover;
 	margin-bottom: 4em;
@@ -293,10 +291,10 @@ padding-top: 10px;
 
 /* --- 4.5) SHOP GALLERY  --- */
 
-.shopContainer {
+.shop-container {
 
 }
-.shopSubtitle{
+.shop-subtitle{
 	letter-spacing: .25em;
 }
 .shop-item-title {
@@ -304,11 +302,11 @@ padding-top: 10px;
 	font-size: 1.25em!important;
 }
 
-.bottomShop{
+.bottom-shop{
 	float: center;
 }
 
-.topShop {
+.top-shop {
 	margin-bottom: 1em;
 
 }
@@ -325,11 +323,33 @@ padding-top: 10px;
 
 /* --- 5) RACE INFORMATION PAGE---*/
 .race-jumbo {
-	background-image: url("Khills_Feet.png");
+	background-image: url("../img/Khills_Feet.png");
 	height: 830px;
 	background-size: cover;
 	margin-bottom: 3em;
 }
+
+.accordian {
+	margin-top: 2em;
+}
+
+.acc-btn{
+	width: 400px;
+
+}
+
+/*.card-body {
+	max-height
+}
+*/
+.card-header {
+	background-color: #fff;
+	border-bottom: none;
+}
+.card {
+	border: none!important;
+}
+
 
 
 
